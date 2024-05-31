@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Landing() {
 
-    const [recipient, setRecipient] = useState('androauthor0524@outlook.com');
+    const [recipient, setRecipient] = useState('andrewclarker0524@outlook.com');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [name, setName] = useState('');
@@ -50,10 +50,8 @@ function Landing() {
                             </div>
                             <div className="col-lg-7 text-center text-lg-left">
                                 <h3 className="text-white font-weight-normal mb-3">I'm</h3>
-                                <h1 className="display-3 text-uppercase text-primary mb-2"
-                                >Andro Author</h1>
-                                <h1 className="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                                <a href="https://app.enhancv.com/share/e7f004ea/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank" className="btn btn-outline-light mr-5">Download CV</a>
+                                <h1 className="display-3 text-primary mb-2">Andrew Clarker</h1>
+                                <a href="/assets/CV.pdf" target="_blank" className="btn btn-outline-light mr-5">Download CV</a>
                             </div>
                         </div>
                     </div>
@@ -87,11 +85,11 @@ function Landing() {
                                     Solidity to support innovative solutions at a dynamic company.
                                 </p>
                                 <div className="row mb-3">
-                                    <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Andro Author</span></h6></div>
+                                    <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Andrew Clarker</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">24 May 1995</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Master</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">8 Years</span></h6></div>
-                                    <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">androauthor0524@outlook.com</span></h6></div>
+                                    <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">andrewclarker0524@outlook.com</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">1720 Edgewood Ave S Jacksonville, FL 32205</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
                                 </div>
@@ -487,31 +485,6 @@ function Landing() {
                     </div>
                 </div>
                 {/* <!-- Contact End --> */}
-
-
-                {/* <!-- Footer Start --> */}
-                <div className="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-                    <div className="container text-center py-5">
-                        <div className="d-flex justify-content-center mb-4">
-                            <a className="btn btn-light btn-social mr-2" href="#"><i className="fab fa-twitter"></i></a>
-                            <a className="btn btn-light btn-social mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-light btn-social mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
-                            <a className="btn btn-light btn-social" href="#"><i className="fab fa-instagram"></i></a>
-                        </div>
-                        <div className="d-flex justify-content-center mb-3">
-                            <a className="text-white" href="#">Privacy</a>
-                            <span className="px-3">|</span>
-                            <a className="text-white" href="#">Terms</a>
-                            <span className="px-3">|</span>
-                            <a className="text-white" href="#">FAQs</a>
-                            <span className="px-3">|</span>
-                            <a className="text-white" href="#">Help</a>
-                        </div>
-                        <p className="m-0">&copy; <a className="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a className="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-                        </p>
-                    </div>
-                </div>
-                {/* <!-- Footer End --> */}
 
                 {/* <!-- Scroll to Bottom --> */}
                 <i className="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
