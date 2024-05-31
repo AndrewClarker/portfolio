@@ -1,4 +1,5 @@
 import { useState } from "react";
+import resume from "../cv.pdf";
 
 function Landing() {
 
@@ -51,7 +52,7 @@ function Landing() {
                             <div className="col-lg-7 text-center text-lg-left">
                                 <h3 className="text-white font-weight-normal mb-3">I'm</h3>
                                 <h1 className="display-3 text-primary mb-2">Andrew Clarker</h1>
-                                <a href="/assets/CV.pdf" target="_blank" className="btn btn-outline-light mr-5">Download CV</a>
+                                <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-outline-light mr-5">Download CV</a>
                             </div>
                         </div>
                     </div>
